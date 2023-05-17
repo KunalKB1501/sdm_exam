@@ -5,11 +5,21 @@ Business operations :
 4.check vacanies as per specilization
 5.apply for job(requirement)
 6.upload documents(CV)
+6.After joining,Candidates update his/her basic requirement
 for Amin/staff
 7.show candidates who has registered them 
 8.show profiles of candidates
 9.Hire employees
 10.Assign department as per specilization(Mention in the CV)
+11.Promote employee
+12.Delete  employee
 
 Business entities:
-candidates :Name,email
+Employee: 
+	EmpId, name, address, email, contact number, Hiredate, Manager Id, salary, department id, job
+	
+Departmemnt:
+	Department id, Department name, Department Description
+Manager :
+   Name, id,contactno,salary,department id
+ 
