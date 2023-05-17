@@ -1,0 +1,15 @@
+Business operations :
+1.login
+2.logout
+3.view requirements
+4.check vacanies as per specilization
+5.apply for job(requirement)
+6.upload documents(CV)
+for Amin/staff
+7.show candidates who has registered them 
+8.show profiles of candidates
+9.Hire employees
+10.Assign department as per specilization(Mention in the CV)
+
+Business entities:
+candidates :Name,email

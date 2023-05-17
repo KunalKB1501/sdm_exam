@@ -1,0 +1,28 @@
+Document :SRS for Employee Rrecruitment system
+
+Title: Employee Rrecruitment system
+
+Objective:  Employee Rrecruitment system is a System in which candidates/jobseekers can register themselves online ,view site and apply for suitable job.It system                    must have facilities where candidates can upload their cv and must be filtered as per there cv.
+
+
+Functional Requirements:
+ 1.Authorization : 
+                            Login: Admin or employee login id;
+                            Password: for verifcation 
+	          Forgot:unless a user forgot his/her id password
+
+2.Authentication :
+                             Verify: verification of employee using login id and password
+                             Login failure: if login id and password doesn't match
+
+3.CRUD Operations:
+                              Insert :insert an employee details and login details will be generated 
+                              Retrive:retrieve an employee details using login details 
+                              Update: update details (specific user can only update his details except (salary,empid))
+                              Delete: Delete an employee and his/her details after they leave an organization                            
+
+4.Post requirement:
+                               Admin/Staff must be able to update the portal for  vacancies and in which department there are vacancies
+
+5.Filter  Candidates:
+                               As candidates upload their CV,they must be filter as per their speciliazation.
